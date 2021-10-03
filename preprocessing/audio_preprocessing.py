@@ -42,7 +42,7 @@ class AudioPreprocessing():
             final = np.flip(right_deleted)
             self.audio_file = final
     
-        return self
+        return self.audio_file
 
     def convert_to_png(self, filename_path):
         cmap = plt.get_cmap('inferno')
@@ -50,6 +50,7 @@ class AudioPreprocessing():
         plt.axis('off')
         plt.savefig(f'{filename_path[:-3].replace(".", "")}.png')
         plt.clf()
+        
     
     def mfcc(self):
         # Compute audio signal mfcc
@@ -61,7 +62,11 @@ class AudioPreprocessing():
 
     def chroma_feature(self):
         # Compute chroma-feature
-        return librosa.feature.chroma_stft(audio_data, sr = sample_rate)
+        return librosa.feature.chroma_stft(self.audio_file, sr = self.sample_rate)
+    
+    def zero_crossing_rate(self):
+        # Compute zero_crossing_rate
+        return librosa.zero_crossings(self.audio_file, pad = False)
     
     def plot_mfcc(self):
         # Plot mfcc transform
@@ -127,4 +132,3 @@ class AudioPreprocessing():
         plt.colorbar()
         plt.tight_layout()
         plt.show()
-
