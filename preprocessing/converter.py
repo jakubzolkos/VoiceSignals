@@ -6,8 +6,8 @@ Function for converting .m4a extension files to .wav extension from two director
 from pydub import AudioSegment
 import os
 
-def converter():
-    rootdir = '../voice_data'
+def converter() -> None:
+    rootdir = 'audio_to_split025'
     for subdir, dirs, files in os.walk(rootdir):
         for filename in files:
             if filename.endswith('.wav'):
@@ -19,4 +19,3 @@ def converter():
                 
 
 converter()
-
