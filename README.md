@@ -1,3 +1,11 @@
+[![Contributors][contributors-shield]][https://github.com/jakubzolkos][https://github.com/najdamikolaj00]
+[![Forks][forks-shield]][https://github.com/jakubzolkos/sobriety-voice-detection/network/members]
+[![Stargazers][stars-shield]][https://github.com/jakubzolkos/sobriety-voice-detection/stargazers]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/jakub-zolkos-20b0301b7/]
+
+# Sobriety Detection via Voice Analysis
+
+A Python program for determining whether a person is in the state of alcohol intoxication. The model used for classification consists of an ensemble of machine learning techniques such as random forest, categorical boosting, and extreme gradient boosting.  
 
 <!-- TABLE OF CONTENTS -->
 
@@ -110,10 +118,10 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+## Acknowledgments 
 
-* []()
-* []()
+* []() We would like to express our gratitude to every volunteer who agreed to share their voice for the purpose of our experiment.
+* []() 
 * []()
 
 <p align="right">(<a href="#top">back to top</a>)</p>
