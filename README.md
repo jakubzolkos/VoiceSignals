@@ -1,8 +1,8 @@
 
 <!-- TABLE OF CONTENTS -->
-<details>
+
   <summary>Table of Contents</summary>
-  
+  <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
@@ -19,8 +19,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-  
-</details>
+  </ol>
 
 
 
