@@ -1,7 +1,8 @@
+-->
 [![Contributors][contributors-shield]](https://github.com/jakubzolkos)
-[![Forks][forks-shield]][https://github.com/jakubzolkos/sobriety-voice-detection/network/members]
-[![Stargazers][stars-shield]][https://github.com/jakubzolkos/sobriety-voice-detection/stargazers]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/jakub-zolkos-20b0301b7/]
+[![Forks][forks-shield]](https://github.com/jakubzolkos/sobriety-voice-detection/network/members)
+[![Stargazers][stars-shield]](https://github.com/jakubzolkos/sobriety-voice-detection/stargazers)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/jakub-zolkos-20b0301b7/)
 
 # Sobriety Detection via Voice Analysis
 
