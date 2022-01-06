@@ -1,28 +1,5 @@
 <div id="top"></div>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
-
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 
@@ -32,7 +9,6 @@
   <a href="https://github.com/github_username/repo_name">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
-
 <h3 align="center">project_title</h3>
 
   <p align="center">
@@ -48,6 +24,11 @@
     <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
   </p>
 </div>
+
+[![Contributors][contributors-shield]][https://github.com/jakubzolkos][https://github.com/najdamikolaj00]
+[![Forks][forks-shield]][https://github.com/jakubzolkos/sobriety-voice-detection/network/members]
+[![Stargazers][stars-shield]][https://github.com/jakubzolkos/sobriety-voice-detection/stargazers]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/jakub-zolkos-20b0301b7/]
 
 
 # Sobriety Detection via Voice Analysis
