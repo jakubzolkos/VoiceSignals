@@ -1,4 +1,3 @@
--->
 [![Contributors][contributors-shield]](https://github.com/jakubzolkos)
 [![Forks][forks-shield]][https://github.com/jakubzolkos/sobriety-voice-detection/network/members]
 [![Stargazers][stars-shield]][https://github.com/jakubzolkos/sobriety-voice-detection/stargazers]
