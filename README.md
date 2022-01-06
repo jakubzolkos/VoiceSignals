@@ -3,10 +3,6 @@
 [![Stargazers][stars-shield]](https://github.com/jakubzolkos/sobriety-voice-detection/stargazers)
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/jakub-zolkos-20b0301b7/)
 
-# Sobriety Detection via Voice Analysis
-
-A Python program for determining whether a person is in the state of alcohol intoxication. The model used for classification consists of an ensemble of machine learning techniques such as random forest, categorical boosting, and extreme gradient boosting.  
-
 <!-- TABLE OF CONTENTS -->
 
   <summary>Table of Contents</summary>
@@ -29,6 +25,9 @@ A Python program for determining whether a person is in the state of alcohol int
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 
+# Sobriety Detection via Voice Analysis
+
+A Python program for determining whether a person is in the state of alcohol intoxication. The model used for classification consists of an ensemble of machine learning techniques such as random forest, categorical boosting, and extreme gradient boosting.  
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
