@@ -119,8 +119,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Acknowledgments 
 
 * []() We would like to express our gratitude to every volunteer who agreed to share their voice for the purpose of our experiment.
-* []() 
-* []()
+* []() Many thanks to Mikolaj Najda for his work on the project (https://github.com/najdamikolaj00)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
