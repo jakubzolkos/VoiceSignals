@@ -28,7 +28,7 @@ A Python program for determining whether a person is in the state of alcohol int
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-According to the data collected by the NHTSA, in 2019 in the United States, 10142 people died as a result of alcohol-impaired driving. A considerably high number of drinking-related road accidents prompts many public authorities to seek legal solutions, such as fines or imprisonment, that would discourage people from driving under the influence. However, those methods frequently yield unsatisfactory results. Our idea is to make a voice-detecting system embedded in a vehicle that would passively monitor whether the driver's voice suggest prior alcohol consumption. 
+According to the data collected by the NHTSA, in 2019 in the United States, 10142 people died as a result of alcohol-impaired driving. A considerably high number of drinking-related road accidents prompts many public authorities to seek legal solutions, such as fines or imprisonment, that would discourage people from driving under the influence. However, those methods frequently yield unsatisfactory results. Our idea is to make a voice-detecting system embedded in a vehicle that would passively monitor whether the driver's voice suggests prior alcohol consumption. 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -77,10 +77,25 @@ Open the terminal and change the directory to where you would like download the 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
+1. Inside main.py in sobriety_detection folder initialize preprocessing variable
+   ```sh
+   data = AudioPreprocessing()
+   ```
+2. Import a voice recording you wish to analyze
+   ```sh
+   data.import_audio(PATH)
+   ```
+3. Extract features from the recording and store them in a .csv file
+   ```sh
+   data.save_csv(SAVE_PATH)
+   ```
+4. Perform classification
+  ```sh
+  X_train, X_test, y_train, y_test = data.model_data_split(test_set_size, random_state, PATH_TO_CSV_FEATURES)
+  model = SobrietyClassifier()
+  model.fit(X_train, y_train)
+  predictions = model.predict(X_test)
+  ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
