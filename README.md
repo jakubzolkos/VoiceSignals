@@ -102,7 +102,7 @@ Open the terminal and change the directory to where you would like download the 
 <!-- LICENSE -->
 ## License
 
-Distributed under the GNU License. See `LICENSE.md` for more information.
+Distributed under the GPL 2.0 License. See `LICENSE.md` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
