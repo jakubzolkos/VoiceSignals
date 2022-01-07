@@ -1,7 +1,7 @@
 
 # Sobriety Detection via Voice Analysis
 
-A Python program for determining whether a person is in the state of alcohol intoxication. The model used for classification consists of an ensemble of machine learning techniques such as random forest, categorical boosting, and extreme gradient boosting.  
+A Python program for determining whether a person is in the state of alcohol intoxication. The model used for classification consists of a majority vote ensemble of machine learning algorithms such as random forest, categorical boosting, and extreme gradient boosting.  
 
 <!-- TABLE OF CONTENTS -->
 
@@ -28,8 +28,7 @@ A Python program for determining whether a person is in the state of alcohol int
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-According to the data collected by the NHTSA, in 2019 in the United States, 10142 people died as a result of alcohol-impaired driving. A considerably high number of drinking-related road accidents prompts many public authorities to seek legal solutions, such as fines or imprisonment, that would discourage people from driving under the influence. However, those methods frequently yield unsatisfactory results. Our idea is to make a voice-detecting system embedded in a vehicle that would prevent the driver from activating the vehicle's engine if their voice points towards prior alcohol consumption. 
-
+According to the data collected by the NHTSA, in 2019 in the United States, 10142 people died as a result of alcohol-impaired driving. A considerably high number of drinking-related road accidents prompts many public authorities to seek legal solutions, such as fines or imprisonment, that would discourage people from driving under the influence. However, those methods frequently yield unsatisfactory results. Our idea is to make a voice-detecting system embedded in a vehicle that would passively monitor whether the driver's voice suggest prior alcohol consumption. 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
