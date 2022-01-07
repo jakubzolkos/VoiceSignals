@@ -51,6 +51,9 @@ According to the data collected by the NHTSA, in 2019 in the United States, 1014
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
+### Prerequisites
+The program utilizes numerous machine learning and preprocessing libraries. For convenience, all the prerequisites have been listed in requirements.txt file and can be simultaneously installed using pip command specified in the installation section.
+
 ### Installation
 
 Open the terminal and change the directory to where you would like download the project.
