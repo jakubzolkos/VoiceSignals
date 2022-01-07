@@ -90,12 +90,12 @@ Open the terminal and change the directory to where you would like download the 
    data.save_csv(SAVE_PATH)
    ```
 4. Perform classification
-  ```sh
-  X_train, X_test, y_train, y_test = data.model_data_split(test_set_size, random_state, PATH_TO_CSV_FEATURES)
-  model = SobrietyClassifier()
-  model.fit(X_train, y_train)
-  predictions = model.predict(X_test)
-  ```
+   ```sh
+   X_train, X_test, y_train, y_test = data.model_data_split(test_set_size, random_state, PATH_TO_CSV_FEATURES)
+   model = SobrietyClassifier()
+   model.fit(X_train, y_train)
+   predictions = model.predict(X_test)
+   ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
